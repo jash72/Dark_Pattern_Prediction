@@ -13,7 +13,7 @@ import warnings
 from sklearn.exceptions import InconsistentVersionWarning
 
 # Load the file paths from the JSON file
-with open("D:\Project\Dark_Pattern_Detectin_in_e-commerce_websites-master\Dark_Pattern_Detectin_in_e-commerce_websites-master\Path\paths.json") as f:
+with open("\Path\paths.json") as f:
     file_paths = json.load(f)
 
 # Set the tesseract path from the JSON file
